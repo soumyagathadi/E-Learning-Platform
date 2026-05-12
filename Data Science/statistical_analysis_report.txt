@@ -1,0 +1,37 @@
+📄 COMPREHENSIVE STATISTICAL ANALYSIS REPORT
+==============================================================
+Dataset shape: 500 rows x 9 columns
+Analysis timestamp: 2024-01-15 14:30:45.123456
+==============================================================
+
+🧪 TESTS PERFORMED:
+- One-Sample T-Test: ✅ Significant
+- Independent T-Test: ✅ Significant
+- Paired T-Test: ✅ Significant
+- One-Way ANOVA: ✅ Significant
+- Chi-Square Test of Independence: ✅ Significant
+- Pearson Correlation: ✅ Significant
+
+📌 KEY FINDINGS:
+- One-sample t-test: quiz_score (mean=76.23) > 70 (p=0.0000) ✅
+- Independent t-test: quiz_score differs between Technical (M=78.45) and Creative (M=72.34) (p=0.0000) ✅
+- Paired t-test: Significant improvement from pre_test_score to post_test_score: Delta=14.76 (p=0.0000) ✅
+- ANOVA: quiz_score differs across age_group (F=4.568, p=0.0034) ✅
+- Chi-square: Association between course_type and device_type (chi2=34.568, p=0.0000) ✅
+- Correlation: hours_per_week and quiz_score: r=0.625 (p=0.0000) ✅
+
+📊 EFFECT SIZES:
+- Cohen's d (one-sample): 0.523
+- Cohen's d (independent): 0.512
+- Cohen's d (paired): 1.793
+- Eta-squared: 0.089
+- Cramer's V: 0.188
+
+💡 RECOMMENDATIONS:
+- Focus interventions on groups with significantly lower performance
+- Investigate factors contributing to high engagement
+- Consider A/B testing for platform improvements
+- Monitor at-risk students identified through statistical analysis
+
+END OF STATISTICAL REPORT
+==============================================================
